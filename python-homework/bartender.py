@@ -8,31 +8,31 @@ hogy csak sört és kólát tudunk adni. Minden más esetben szolgáld ki. (Írd
 
 while True:
     try:
-        életkor = int(input("Hány éves vagy? "))
+        eletkor = int(input("Hány éves vagy? "))
     except ValueError:
         print("Elnézést nem értettem tisztán! Kérem megismételné?")
         continue
-    if életkor <= 0:
+    if eletkor <= 0:
         print("Nem tudom értelmezni!")
         continue
-    if életkor > 120:
+    if eletkor > 120:
         print("Nem tudom értelmezni!")
         continue
     else:
         break
 
-rendelés = input("Sört vagy colát szeretne?: ")
+rendeles = input("Sört vagy colát szeretne?: ")
 ital1 = 'sör'
 ital2 = 'cola'
 
-if életkor < 18 and rendelés == ital1:
+if eletkor < 18 and rendeles == ital1:
     print("Nem adhatok sört!")
     exit()
 else:
-    if életkor >= 60 and rendelés == ital2:
+    if eletkor >= 60 and rendeles == ital2:
         print('A koffein megemelheti a vérnyomását!')
         exit()
-    if életkor >= 18 and rendelés == ital1 or rendelés == ital2:
+    if eletkor >= 18 and rendeles == ital1 or rendeles == ital2:
         print("Parancsoljon, itt a rendelése!")
     else:
         print("Elnézést! Csak sört vagy colát tudunk adni!")
