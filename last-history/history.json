@@ -1,0 +1,82 @@
+{
+  "0e93b819cc2e8121f7281dc8e4eaaf78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45aaf4616e1a3eb7",
+      "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/45aaf4616e1a3eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624296089230,
+        "stop" : 1624296089230,
+        "duration" : 0
+      }
+    } ]
+  },
+  "753cdf21aa3257d3e2249d83346a13e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc9081481b90538b",
+      "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/bc9081481b90538b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624296089228,
+        "stop" : 1624296089228,
+        "duration" : 0
+      }
+    } ]
+  },
+  "77caee529814bb5616db6b28df37c87c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6beb840d87066d29",
+      "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/6beb840d87066d29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624296089227,
+        "stop" : 1624296089227,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0cc1fa42e1c19a0d3fd610d45c4ba65a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d74ecbf9050f7a49",
+      "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/d74ecbf9050f7a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624296089224,
+        "stop" : 1624296089224,
+        "duration" : 0
+      }
+    } ]
+  }
+}
