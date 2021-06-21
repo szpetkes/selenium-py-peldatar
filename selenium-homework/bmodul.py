@@ -1,0 +1,1 @@
+változó = 'Én egy változó vagyok!'
