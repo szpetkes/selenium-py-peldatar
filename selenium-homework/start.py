@@ -1,3 +1,4 @@
+"""""""""
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -12,3 +13,20 @@ driver.get("https://www.starwars.com/")
 
 films = driver.find_element_by_class_name("films-content-title")
 films.click()
+"""""
+
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(ChromeDriverManager().install())
+
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+driver.get("https://www.starwars.com/")
+
+films = driver.find_element_by_class_name("films-content-title")
+films.click()
+
