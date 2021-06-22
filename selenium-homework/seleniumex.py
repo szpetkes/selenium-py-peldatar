@@ -13,7 +13,6 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 driver.get("https://www.starwars.com/")
 
-from selenium.common.exceptions import NoSuchElementException
 
 try:
     hiba = driver.find_element_by_id(element_id)
