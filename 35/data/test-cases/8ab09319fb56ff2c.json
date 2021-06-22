@@ -1,0 +1,91 @@
+{
+  "uid" : "8ab09319fb56ff2c",
+  "name" : "test_add_positive",
+  "fullName" : "testproject.test_mymath#test_add_positive",
+  "historyId" : "0cc1fa42e1c19a0d3fd610d45c4ba65a",
+  "time" : {
+    "start" : 1624384878278,
+    "stop" : 1624384878279,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-600"
+  }, {
+    "name" : "thread",
+    "value" : "2757-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "49e2568f013d6e57",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/34//#testresult/49e2568f013d6e57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624383710226,
+          "stop" : 1624383710226,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cdd9c392f5a92155",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/33//#testresult/cdd9c392f5a92155",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624308154635,
+          "stop" : 1624308154635,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d74ecbf9050f7a49",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/d74ecbf9050f7a49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624296089224,
+          "stop" : 1624296089224,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8ab09319fb56ff2c.json",
+  "parameterValues" : [ ]
+}
