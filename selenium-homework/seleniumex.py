@@ -1,4 +1,3 @@
-
 element_id = input('Kérem adja a keresendő ID t: ')
 print('Keresem az oldalon a következő ID-t:', element_id)
 
