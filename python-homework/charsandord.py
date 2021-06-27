@@ -10,13 +10,10 @@ e 101 j 106
 A megoldashoz használd a beépített ord() es chr() függvényeket.
 """""
 
-import string
-raw = ''
+x = ord('x')
 
-for i in range(0, len(string.ascii_lowercase)):
-    abc = string.ascii_lowercase[i]
-    if i > 0 and (i % 3) == 0:
-        print(raw + '')
-        raw = ''
-    raw += '\t' + abc + ' ' + str(ord(abc))
-print(abc + '')
+for i in range(10):
+    if i < 26 % 10:
+        print(f'{chr(x + i)}', x + i, f'{chr(x + i + 10)}', x + i + 10, f'{chr(x + i + 20)}', x + i + 20)
+    else:
+        print(f'{chr(x + i)}', x + i, f'{chr(x + i + 10)}', x + i + 10)
