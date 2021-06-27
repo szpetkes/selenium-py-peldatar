@@ -9,3 +9,4 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 driver.get("http://localhost:9999/trickyelements.html")
 
+
