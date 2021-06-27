@@ -1,0 +1,109 @@
+{
+  "uid" : "3dd393f4a1691be8",
+  "name" : "test_add_string__expect_exception",
+  "fullName" : "testproject.test_mymath#test_add_string__expect_exception",
+  "historyId" : "0e93b819cc2e8121f7281dc8e4eaaf78",
+  "time" : {
+    "start" : 1624800107642,
+    "stop" : 1624800107642,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-366"
+  }, {
+    "name" : "thread",
+    "value" : "2761-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d6240865f7ce510e",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/36//#testresult/d6240865f7ce510e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624386199806,
+          "stop" : 1624386199806,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "70c990a479843daa",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/35//#testresult/70c990a479843daa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624384878298,
+          "stop" : 1624384878298,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f6ee53497aa6e2a8",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/34//#testresult/f6ee53497aa6e2a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624383710234,
+          "stop" : 1624383710234,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bbf39892a69ddedb",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/33//#testresult/bbf39892a69ddedb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624308154646,
+          "stop" : 1624308154646,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45aaf4616e1a3eb7",
+        "reportUrl" : "https://szpetkes.github.io/selenium-py-peldatar/32//#testresult/45aaf4616e1a3eb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624296089230,
+          "stop" : 1624296089230,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3dd393f4a1691be8.json",
+  "parameterValues" : [ ]
+}
