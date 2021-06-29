@@ -1,3 +1,10 @@
+"""""""""
+A feladatokat külön python fileban oldd meg. Minden feladat tartalmazza az elvárt filenevet. Ezen a néven fogadható 
+el a megoldás. Készíts egy Python alkalmazást ami selenium-ot használ. Indítsd el lokálisan a selenium-py-peldatar 
+alkalmazást. A program töltse be a példatárból az http://localhost:9999/kitchensink.html oldalt. Gyakorlás képpen 
+keress ki elemeket a képernyőről az alábbi kritériumoknak megfelelően: ID alapján NAME alapján XPath kifejezéssel 
+Minden megtalált elemnek irassd ki a text értékét, vagy egy attribútum értékét. """
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
@@ -9,15 +16,13 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 driver.get("http://localhost:9999/kitchensink.html")
 
-type_xpath = driver.find_elements_by_xpath("//div[@class='left-align']")
-for x in range(len(type_xpath)):
-    print("Következő elemet találtam:")
-    print(type_xpath[x].text)
 
-type_name = driver.find_element_by_name()
-for x in range(len(type_name)):
-    print(type_name[x].text)
+search_element = driver.find_element_by_xpath('//*[@id="radio-btn-example"]').text
+print(search_element)
 
-type_id = driver.find_element_by_id()
-for x in range(len(type_id)):
-    print(type_id[x].text)
+search_element = driver.find_element_by_id('radio-btn-example').text
+print(search_element)
+
+search_element = driver.find_element_by_name('cars').text
+print(search_element)
+
