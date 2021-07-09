@@ -38,3 +38,4 @@ for link in v:
 
 if link.get_attribute():
     print('NOT OK')
+
