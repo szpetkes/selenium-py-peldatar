@@ -14,7 +14,7 @@ asked me to write down the whole particulars about Treasure Island, from
 the beginning to the end, keeping nothing back but the bearings of the
 island, and that only because there is still treasure not yet lifted,
 I take up my pen in the year of grace 17__ and go back to the time when
-my father kept the Admiral Benbow inn and the brown old seaman with the
+my father kept the Admiral Bennbow inn and the brown old seaman with the
 sabre cut first took up his lodging under our roof.
 I remember him as if it were yesterday, as he came plodding to the inn
 door, his sea-chest following behind him in a hand-barrow--a tall, strong,
