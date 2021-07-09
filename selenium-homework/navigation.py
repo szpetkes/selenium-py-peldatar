@@ -8,7 +8,6 @@ sikeresen vissza navigáltál a főoldalra. (A tökéletes megoldás nem tartalm
 """ ""
 
 from selenium import webdriver
-from selenium.common.exceptions import InvalidSessionIdException
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
