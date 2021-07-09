@@ -1,4 +1,14 @@
-TEXT = """The Old Sea-dog at the Admiral Benbow
+"""''''''' Állapítsuk meg, hogy az alábbi szövegben (TEXT) melyik szó hányszor fordul elő s írassuk ki az eredményt a
+következő formában: szó_1 előfordulások_száma_1 szó_2 előfordulások_száma_2 ...
+Az eredményt úgy írassuk ki, hogy a lista szavak szerint rendezve legyen. Minden szó kisbetűsen szerepeljen,
+vagyis pl. a 'The' és 'the' szavak azonos szónak számítanak.
+Használjuk az str.split() függvényt (paraméter nélkül) a whitespace karakterek eltávolítására.
+Az egyes szavakhoz kapcsolódó írásjelekkel (pont, vessző, idézőjel, stb.) nem kell most foglalkozni.
+
+Ezt a szöveget használd a ruttatáshoz:
+''''''"""
+
+textinput = """The Old Sea-dog at the Admiral Benbow
 SQUIRE TRELAWNEY, Dr. Livesey, and the rest of these gentlemen having
 asked me to write down the whole particulars about Treasure Island, from
 the beginning to the end, keeping nothing back but the bearings of the
@@ -32,4 +42,21 @@ what you're at-- there"; and he threw down three or four gold pieces on
 the threshold. "You can tell me when I've worked through that," says he,
 looking as fierce as a commander."""
 
+text: str = textinput.lower()
 
+new_text = text.replace(",", " ")
+new_text = new_text.replace("=", " ")
+new_text = new_text.replace("_", " ")
+new_text = new_text.replace(".", " ")
+new_text = new_text.replace("-", " ")
+new_text = new_text.replace("\"", " ")
+
+my_list = new_text.split()
+
+words_in_text = {}
+for word in my_list:
+    words_in_text[word] = words_in_text.get(word, 0) + 1
+print(words_in_text)
+
+for key, value in words_in_text.items():
+    print(f'{key} {value}', end=" ")
