@@ -4,11 +4,11 @@ program töltse be a példatárból az http://localhost:9999/general.html oldalt
 összes linket ezen az oldalon. Egy link meglátogatása akkor érvényes, ha a hozzá tartozó a html elemre 
 rákattintottál, a megjelent új oldalnak ellenrőizted, hogy eggyezik az urlje az előzőleg használt a tag href-jével és 
 sikeresen vissza navigáltál a főoldalra. (A tökéletes megoldás nem tartalmaz sor ismétléseket. Ezt mondjuk függvények 
-írásával is elő tudod idézni.) 
+írásák is elő tudod idézni.) 
 """ ""
-import time
 
 from selenium import webdriver
+from selenium.common.exceptions import InvalidSessionIdException
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -19,18 +19,23 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 driver.get("http://localhost:9999/general.html")
 
-try:
-    urls_to_open = []
-    urls = driver.find_elements_by_xpath("//*[@href]")
+page = "http://localhost:9999/general.html"
 
-    for i in urls:
-        i = i.get_attribute('href')
-        urls_to_open.append(i)
 
-    for i in urls_to_open:
-        urls_to_open = "'" + i + "'"
-        print(urls_to_open, '\n')
-        driver.get(i)
-        time.sleep(1)
-finally:
-    driver.close()
+def links():
+    return driver.find_elements_by_xpath("//a")
+
+
+v = links()
+
+for link in v:
+    k = link.get_attribute('href')
+    if page in k:
+        link.click()
+        print("URL OK", k)
+        driver.back()
+    else:
+        driver.close()
+
+if link.get_attribute():
+    print('NOT OK')
