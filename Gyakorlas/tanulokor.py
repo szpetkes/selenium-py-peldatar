@@ -20,4 +20,3 @@ def browser():
     driver.get("http://localhost:9999/randomajax.html")
     return driver
 
-
