@@ -21,3 +21,18 @@ def browser():
     return driver
 
 
+def test_first_testcase(browser):
+    yes_element = WebDriverWait(browser, 10).until(EC.visibility_of_element_located((By.ID, 'yes')))
+    yes_element.click()
+    browser.find_element_by_id("buttoncheck").click()
+    p = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//div[@id="container"]/p')))
+    print(p.text)
+
+
+def test_second_testcase(browser):
+    browser.get("https://google.com")
+    time.sleep(2)
+    assert True
+
+
+driver.quit()
