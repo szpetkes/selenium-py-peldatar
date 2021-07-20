@@ -100,3 +100,4 @@ def test_second_testcase(browser):
 
 
 driver.quit()
+
